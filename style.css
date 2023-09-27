@@ -9,6 +9,7 @@ body{
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    overflow: hidden;
 }
 /* sidemenu */
 .sidemenu{
