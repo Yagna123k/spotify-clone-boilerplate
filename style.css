@@ -1,0 +1,161 @@
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@300&family=Roboto&family=Work+Sans&display=swap');
+
+body{
+    margin: 0;
+    background-color: #1d1d1d;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* sidemenu */
+.sidemenu{
+    height: 100%;
+    width: 250px;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left: 0;
+    background-color: black;
+    overflow:hidden;
+    padding: 25px 10px;
+}
+
+.logo img{
+    width: 150px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+#first{
+    background-color: #282828;
+}
+.mitems{
+    padding-left: 20px;
+    display: flex;
+    justify-content:baseline;
+    font-size: 14px;
+    font-weight: 600;
+    word-spacing:0%;
+    width: 230px;
+    height: 35px;
+    border-radius: 3px;
+    align-items: center;
+}
+.icon img{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+
+.plus{
+    height: 20px;
+    width: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+#last1{
+    margin-bottom: 25px;
+}
+#last2 img{
+    border-radius: 3px;
+}
+
+/* Playlists */
+
+.playlists{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#install{
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+#install div img{
+    margin-right: 25px;
+}
+#Right{
+    position: relative;
+    margin-top: 2vh;
+    width: 78vw;
+    align-items: center;
+    left: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    width: 78vw;
+    height: 6vh;
+    align-items: center;
+}
+
+#arrows img{
+    width: 90px;
+}
+
+#profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 35px;
+    width: 120px;
+    background-color: #0a0a0a;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+#photo{
+    width: 33px;
+    border-radius: 50%;
+}
+
+#arr{
+    width: 15px;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 78vw;
+    margin-bottom: 25px;
+}
+
+#Right h1{
+    margin-top: 50px;
+}
+
+.card1{
+    height: 80px;
+    width: 280px;
+    background-color: #303030;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.card1 img{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: 20px;
+    width: 80px;
+}
