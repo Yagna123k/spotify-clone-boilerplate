@@ -97,6 +97,7 @@ body{
     left: 250px;
     margin-left: 50px;
     margin-right: 50px;
+    z-index: 0;
 }
 .section1{
     display: flex;
@@ -132,9 +133,9 @@ body{
 
 .section2{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
     width: 78vw;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 #Right h1{
@@ -149,8 +150,9 @@ body{
     justify-content: left;
     align-items: center;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 17px;
     border-radius: 5px;
+    margin-right: 25px;
 }
 
 .card1 img{
@@ -158,4 +160,82 @@ body{
     border-bottom-left-radius: 5px;
     margin-right: 20px;
     width: 80px;
+}
+
+.section3{
+    display: flex;
+    justify-content: left;
+    width: 78vw;
+}
+
+.card2{
+    height: 200px;
+    width: 130px;
+    background-color: #303030;
+    padding: 20px;
+    margin-right: 25px;
+}
+
+.card2 img{
+    border-radius: 5px;
+    width: 130px;
+}
+#title{
+    font-size: 14px;
+    font-weight: 500;
+}
+#desc{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+#show{
+    font-size: 25px;
+}
+#seeall{
+    line-height: 0%;
+    position: relative;
+    left: 70vw;
+}
+
+/* end */
+
+.end{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    background-color: #303030;
+    height: 150px;
+    width: 100vw;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+}
+
+.play{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.play img{
+    width: 50px;
+}
+
+#love{
+    width: 15px;
+    height: 15px;
+}
+.songname h1{
+    font-size: 12px;
+}
+
+#music img{
+    width: 700px;
+}
+
+#Options img{
+    width: 250px;
 }
