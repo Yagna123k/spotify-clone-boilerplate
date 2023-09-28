@@ -80,7 +80,7 @@ body{
 }
 
 #install{
-    margin-top: 75px;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     font-weight: 600;
@@ -140,7 +140,7 @@ body{
 }
 
 #Right h1{
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .card1{
@@ -170,9 +170,9 @@ body{
 }
 
 .card2{
-    height: 200px;
-    width: 130px;
-    background-color: #303030;
+    height: 185px;
+    width: 150px;
+    background-color: #181818;
     padding: 20px;
     margin-right: 25px;
 }
@@ -186,8 +186,10 @@ body{
     font-weight: 500;
 }
 #desc{
+    line-height: 75%;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 200;
+    color: #8d8d8d;
 }
 
 #show{
@@ -202,20 +204,21 @@ body{
 /* end */
 
 .end{
-    position: relative;
+    position: fixed;
     z-index: 2;
     display: flex;
     justify-content: space-between;
-    background-color: #303030;
-    height: 150px;
+    background-color: #181818;
+    height: 110px;
     width: 100vw;
     padding-left: 25px;
     padding-right: 25px;
     align-items: center;
+    bottom: 4vh;
 }
 
 .play{
-    width: 200px;
+    width: 175px;
     height: 100px;
     display: flex;
     justify-content: space-between; 
@@ -230,13 +233,57 @@ body{
     height: 15px;
 }
 .songname h1{
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 0;
+    font-weight: 500;
+}
+.songname p{
+    font-size: 11px;
+    line-height: 50%;
+    font-weight: 400;
 }
 
 #music img{
-    width: 700px;
+    width: 650px;
 }
 
 #Options img{
-    width: 250px;
+    margin-right: 50px;
+    width: 225px;
+}
+
+#green{
+    background-color: #1ed760;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100vw;
+    height: 3vh;
+    position: fixed;
+    bottom: 1vh;
+    z-index: 2;
+}
+
+#green img{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+#green p{
+    font-size: small;
+    color: #0a0a0a;
+    margin-right: 100px;
+    font-weight: 600;
+}
+
+#square{
+    position: fixed;
+    bottom: 20px;
+    z-index: 2;
+    background-color: #1ed760;
+    transform:rotate(45deg);
+    width: 18px;
+    height: 18px;
+    right: 170px;
 }
